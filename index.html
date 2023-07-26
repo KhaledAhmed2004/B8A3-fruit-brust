@@ -52,7 +52,7 @@
     </style>
   </head>
   <body class="font-lato">
-    <header class="container mx-auto px-5">
+    <header class="container mx-auto px-10">
       <!-- Navbar section -->
       <nav
         class="navbar bg-white text-black md:bg-primary-color md:text-white rounded-[600px] px-7 justify-between mt-6 mb-8"
@@ -113,10 +113,10 @@
 
       <!-- Carousal section -->
       <section class="container mx-auto">
-        <div class="carousel w-full">
+        <div class="carousel w-full rounded-lg">
           <div id="slide1" class="carousel-item relative w-full">
             <div
-              class="hero min-h-[calc(100vh-80px)]"
+              class="hero"
               style="background-image: url(./images/banner1.png)"
             >
               <div class="hero-overlay bg-opacity-60"></div>
@@ -217,7 +217,7 @@
         </div>
         <!-- bonus section -->
         <div
-          class="hidden h-[180px] px-10 ml-[20%] md:flex items-center bg-white shadow-lg gap-8 absolute mt-[-5.375rem] text-center rounded-md lg:ml-5 xl:ml-[9.5rem]"
+          class="hidden h-[180px] px-10 ml-[20%] md:flex items-center bg-white shadow-lg gap-8 absolute mt-[-5.375rem] text-center rounded-md lg:ml-5 xl:ml-[9rem]"
         >
           <div class="w-full pr-2 text-xs">
             <img src="images/fruit1.png" alt="" />
@@ -243,6 +243,212 @@
       </section>
     </header>
     <main>
+      <!-- Deal of the day section -->
+      <section
+        class="mt-[180px] container mx-auto px-10 flex flex-col md:flex-row justify-between"
+      >
+        <div class="w-[600px]">
+          <h1 class="font-extrabold text-5xl">Deal of the day</h1>
+          <p class="text-base">
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical Latin literature from 45 BC, making it over
+            2000 years old.
+          </p>
+        </div>
+        <div class="flex gap-3">
+          <div class="flex flex-col items-center justify-center">
+            <h1 class="font-extrabold text-5xl">29</h1>
+            <p>Day</p>
+          </div>
+          <div class="text-[25px] leading-[4rem] font-bold">:</div>
+          <div class="flex flex-col items-center justify-center">
+            <h1 class="font-extrabold text-5xl">15</h1>
+            <p>Hours</p>
+          </div>
+          <div class="text-[25px] leading-[4rem] font-bold">:</div>
+          <div class="flex flex-col items-center justify-center">
+            <h1 class="font-extrabold text-5xl">25</h1>
+            <p>Minutes</p>
+          </div>
+          <div class="text-[25px] leading-[4rem] font-bold">:</div>
+          <div class="flex flex-col items-center justify-center">
+            <h1 class="font-extrabold text-5xl">08</h1>
+            <p>Seconds</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- card section -->
+      <!-- card 1 -->
+      <section class="container mx-auto px-8">
+        <div class="grid grid-cols-4 gap-8">
+          <!-- card 1 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Meet the team section -->
       <div
         class="hero min-h-screen mt-36 container mx-auto"
